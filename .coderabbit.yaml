@@ -1,0 +1,8 @@
+language: "c-sharp"
+code_generation:
+  unit_tests:
+    enabled: true
+    framework: "nunit"
+    instructions: |
+      Use NUnit and Moq.
+      Write standard Arrange-Act-Assert tests.
