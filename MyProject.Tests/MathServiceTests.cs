@@ -6,7 +6,7 @@ namespace MyProject.Tests
     /// <summary>
     /// Comprehensive unit tests for the MathService class.
     /// Tests cover happy paths, edge cases, boundary conditions, and failure scenarios.
-    /// Change Xunit to Nunit
+    /// Change Xunit to Nunit test framework
     /// </summary>
     public class MathServiceTests
     {
