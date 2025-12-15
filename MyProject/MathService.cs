@@ -11,5 +11,21 @@ namespace MyProject
         {
             return a + b;
         }
+
+public decimal CalculateDiscount(decimal price, bool isLoyalUser)
+{
+    if (!isLoyalUser) return 0;
+
+    decimal discount = price * 0.10m; // 10% rule
+
+    // THE BUSINESS LOGIC (The Cap)
+    if (discount > 20)
+    {
+        return 20;
+    }
+
+    return discount;
+}
+        
     }
 }
